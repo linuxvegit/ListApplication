@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/msgIcon"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip" />
+
+    <TextView
+        android:id="@+id/msgUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/msgIcon"
+        android:layout_toRightOf="@id/msgIcon"
+        android:text="@string/userName1"
+        android:textColor="@color/darkBlue"
+        android:layout_marginLeft="10dip" />
+
+    <TextView
+        android:id="@+id/msgDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/msgUserName"
+        android:text="@string/shareALink"
+        android:layout_marginLeft="10dip"
+        android:textColor="@color/lightGray"
+        android:layout_alignTop="@id/msgUserName" />
+
+    <TextView
+        android:id="@+id/msgContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msgUserName"
+        android:layout_alignLeft="@id/msgUserName"
+        android:text="@string/content1"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="10dip" />
+
+    <RelativeLayout
+        android:id="@+id/msgContentHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/msgUserName"
+        android:layout_below="@id/msgContent">
+
+        <TextView
+            android:id="@+id/msgTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGray"
+            android:text="刚刚" />
+
+        <ImageButton
+            android:id="@+id/msgGoodButton"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_alignBottom="@id/msgTime"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

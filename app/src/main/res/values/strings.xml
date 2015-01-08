@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ListApplication</string>
+
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <string name="userName">Linux</string>
+    <string name="userName1">用户名1</string>
+    <string name="userName2">用户名2</string>
+    <string name="userName3">用户名3</string>
+    <string name="userName4">用户名4</string>
+    <string name="userName5">用户名5</string>
+
+    <string name="shareALink">分享了一个链接</string>
+    <string name="empty"></string>
+
+    <string name="content1">你们大家给点意见，我应该给自己的小孩取什么名字好呢？</string>
+    <string name="content2">。。。</string>
+    <string name="content3"></string>
+    <string name="content4">玩家投稿哟！</string>
+    <string name="content5">实在想不出写啥了</string>
+
+</resources>
