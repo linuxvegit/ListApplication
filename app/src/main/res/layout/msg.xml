@@ -42,16 +42,18 @@
         android:layout_marginTop="10dip"
         android:layout_marginRight="10dip" />
 
-    <RelativeLayout
-        android:id="@+id/msgContentHolder"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"></RelativeLayout>
+    <TableLayout
+        android:id="@+id/msgPhotoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msgContent"
+        android:layout_alignLeft="@id/msgUserName"></TableLayout>
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/msgUserName"
-        android:layout_below="@id/msgContent">
+        android:layout_below="@id/msgPhotoLayout">
 
         <TextView
             android:id="@+id/msgTime"
